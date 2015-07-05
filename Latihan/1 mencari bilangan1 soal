@@ -1,0 +1,27 @@
+Mencari Bilangan 1
+
+Batas Waktu	2 detik
+Batas Memori	16 MB
+Diberikan beberapa nilai bilangan bulat (1 s/d 1000) sebanyak maksimum 107 bilangan. Buatlah sebuah program untuk mencari keberadaan suatu bilangan (ada atau tidak ada) di dalam rangkaian bilangan bulat tersebut.
+
+Format Masukan
+
+Masukan terdiri atas dua baris. Baris pertama adalah rangkaian bilangan bulat (1 s/d 1000) yang banyak maksimumnya ialah 107. Baris ini diakhiri dengan nilai -9.
+
+Baris kedua diawali dengan N, yaitu banyaknya nilai yang akan dicari dalam rangkaian bilangan yang dilanjutkan dengan N buah bilangan bulat X (1 <= X <= 1000) yang akan dicari keberadaannya di dalam bilangan yang ada.
+
+Format Keluaran
+
+Keluaran terdiri atas N baris. Setiap baris diawali oleh bilangan X yang diikuti dengan kata "ada" jika X ada dalam array. Jika X tidak ada dalam array, kata yang dicetak adalah kata "tidak ada". Akhirilah keluaran dengan karakter newline.
+
+Contoh Masukan
+
+5 9 8 7 6 8 7 6 2 3 4 5 1 -9
+4 7 9 10 3
+
+Contoh Keluaran
+
+7 ada
+9 ada
+10 tidak ada
+3 ada
