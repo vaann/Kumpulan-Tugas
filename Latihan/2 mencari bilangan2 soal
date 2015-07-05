@@ -1,0 +1,27 @@
+Mencari Bilangan 2
+
+Batas Waktu	2 detik
+Batas Memori	16 MB
+Soal ini mirip dengan soal Struktur Data: Mencari Bilangan 1, namun bilangan yang dilibatkan adalah bilangan riil. Diberikan beberapa nilai bilangan riil sebanyak maksimum 107 bilangan. Buatlah sebuah program untuk mencari keberadaan suatu bilangan (ada atau tidak ada) di dalam rangkaian bilangan bulat tersebut.
+
+Format Masukan
+
+Masukan terdiri atas dua baris. Baris pertama adalah rangkaian bilangan riil yang banyak maksimumnya ialah 107. Baris ini diakhiri dengan nilai -9.
+
+Baris kedua diawali dengan N, yaitu banyaknya nilai yang akan dicari dalam rangkaian bilangan yang dilanjutkan dengan N buah bilangan riil X (1 <= X <= 1000) yang akan dicari keberadaannya di dalam bilangan yang ada.
+
+Format Keluaran
+
+Keluaran terdiri atas N baris. Setiap baris diawali oleh bilangan X yang diikuti dengan kata "ada" jika X ada dalam array. Jika X tidak ada dalam array, kata yang dicetak adalah kata "tidak ada". Akhirilah keluaran dengan karakter newline.
+
+Contoh Masukan
+
+5.5 9.0 8.0 7.0 6.0 8.0 7.0 6.0 2.0 3.0 4.0 5.0 1.0 -9
+4 5.5 9.0 10.0 3.0
+
+Contoh Keluaran
+
+5.5 ada
+9 ada
+10 tidak ada
+3 ada
