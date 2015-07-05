@@ -1,21 +1,21 @@
 #include <iostream>
 #include <set>
- 
+
 using namespace std;
- 
+
 class Cari
 {
     private:
         set <float> myset;
         set <float>::iterator it;
         float x;
- 
+
     public:
         Cari()
         {
             x=0;
         }
- 
+
         void nilai()
         {
             cin >> x;
@@ -25,7 +25,7 @@ class Cari
                 cin >> x;
             }
         }
- 
+
         void cariBil()
         {
             cin >> x;
@@ -42,12 +42,12 @@ class Cari
             }
         }
 };
- 
+
 int main()
 {
     Cari c;
     c.nilai();
     c.cariBil();
     return 0;
- 
+
 }
